@@ -1,0 +1,40 @@
+.card {
+  border: none !important;
+}
+.card__body-info {
+  position: absolute;
+
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+  width: 100%;
+
+  border-radius: 4px;
+  background-color: rgba(26, 25, 25, .74);
+}
+
+.card__title-color {
+  color: white;
+}
+
+.card__text-color {
+  color: white;
+}
+
+.card-img-top {
+  /* position: relative; */
+
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.card-img-top:hover + .card__body-info {
+  visibility: visible;
+}
+
+.card__body-info:hover {
+  visibility: visible;
+}

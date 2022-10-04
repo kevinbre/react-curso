@@ -1,0 +1,35 @@
+header {
+  background-color: #373737;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  color: white;
+  display: flex;
+  height: 100%;
+  margin: 0
+}
+
+header li {
+  list-style-type: none;
+  color: white;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+header li a{
+  text-decoration: none;
+  color: white
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  max-width: 40px;
+  margin-left: 50px
+}
